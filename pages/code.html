@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html style="background: #e9ebee">
+<head>
+	<title>Справки ВШЭ</title> 
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="code.css">
+</head>
+<body onload="enteredEmail()">
+	<header class="container">
+		<h1>Заказ справок НИУ ВШЭ</h1>
+	</header>
+	<div class="container main">
+		<table class="table_style">
+			<tr id="tr1">
+				<th id="th1">Введите код безопасности</th>
+			</tr>
+			<tr id="tr2">
+				<th id="th2">Проверьте электронную почту. Мы отправили вам письмо с 6-значным кодом</th>
+			</tr>
+			<tr id="tr3">
+				<th id="th3">
+					<input id="codeField" placeholder="Введите код">
+					 Мы отправили код на:
+					 <div id="email">mfnasubullin@edu.hse.ru</div>
+				 </th>
+			</tr>
+			<tr id="tr4"><th id="th4">
+				<a href="">Не пришел код?</a>
+				<span id="message"></span>
+				<button id="button1" onclick="goBack()">Отмена</button>
+				<button id="button2" onclick="codeCheck()">Продолжить</button>
+			</th></tr>
+		</table>
+	</div>
+
+	<script src="main.js"></script>
+</body>
+</html>

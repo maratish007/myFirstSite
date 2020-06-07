@@ -1,0 +1,50 @@
+body {
+	font-family: Arial;
+}
+
+.container {
+	width: 100%;
+	max-width: 1000px;
+	margin: 0 auto;
+}
+
+header {
+	height: 90px;
+	background: #005aab;
+	color:#ffffff;
+	padding: 15px;
+	border-radius: 10px;
+}
+
+header h1 {
+	margin-left: 50px;
+	float: left;
+}
+
+header table {
+	float: right;
+	margin: 15px;
+}
+
+.form_style {
+	margin-top: 50px;
+	width: 33%;
+	float: right;
+}
+
+.form_style button {
+	background: #87E782;
+}
+
+.beauty_input {
+	font-size:30px;
+	width: 345px;
+	margin-top: 45px;
+	border-radius: 5px;
+	border-style: solid;
+	border-color: grey;
+}
+
+#reg_email {
+	margin-top: 0px;
+}

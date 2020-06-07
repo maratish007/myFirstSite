@@ -1,0 +1,102 @@
+body {
+	font-family: Arial;
+}
+
+.container {
+	width: 100%;
+	max-width: 1000px;
+	margin: 0 auto;
+}
+
+header {
+	height: 90px;
+	background: #005aab;
+	color:#ffffff;
+	padding: 15px;
+	border-radius: 10px;
+}
+
+header h1 {
+	margin-left: 50px;
+	float: left;
+}
+
+.table_style {
+	margin: 0 auto;
+	margin-top: 170px;
+	border: 2px solid grey;
+	border-radius: 5px;
+	width: 750px;
+	background: white;
+}
+
+.table_style input {
+	float: left;
+	font-size: 35px;
+	margin-left: 10px;
+}
+
+#tr1 {
+	height: 40px;
+}
+
+#th1 {
+	float: left; 
+	margin: 7px; 
+	height: 30px; 
+	font-size: 25px;
+}
+
+#tr2 {
+	height: 50px;
+}
+
+#th2 {
+	height: 30px;
+	margin: 5px; 
+	font-size: 20px; 
+	font-weight: 500;
+}
+
+#tr3 {
+	height: 60px;
+}
+
+#th3 {
+	font-size: 20px;
+}
+
+#tr4 {
+	background: #f2f2f2;
+}
+
+#th4 {
+	height: 60px; 
+	width: 750px;
+}
+
+a {
+	float:left; 
+	margin-left: 10px;
+}
+
+#message {
+	float: left;
+	margin-left: 20px;
+}
+
+#button1 {
+	font-size: 20px;
+	float: right; 
+	border-radius: 5px; 
+	background: white; 
+	margin-right: 10px;
+}
+
+#button2 {
+	font-size: 20px;
+	float: right; 
+	margin-right: 10px; 
+	background:#87E782; 
+	border-radius: 5px;
+}

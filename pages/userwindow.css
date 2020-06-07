@@ -1,0 +1,59 @@
+body {
+	font-family: Arial;
+}
+
+.container {
+	width: 100%;
+	max-width: 1000px;
+	margin: 0 auto;
+}
+
+header {
+	height: 90px;
+	background: #005aab;
+	color:#ffffff;
+	padding: 15px;
+	border-radius: 10px;
+}
+
+header h1 {
+	margin-left: 50px;
+	float: left;
+}
+
+.table1 {
+	margin-top: 7px;
+	margin-right: 15px;
+	float: right;
+	font-size: 30px;
+}
+
+header button {
+	background: #09f;
+	color: white;
+	border-radius: 5px;
+	width: 100px;
+	height: 35px;
+	border: 0;
+	font-size: 15px;
+}
+
+.table2 {
+	background: #09f;
+	color:white;
+	margin-top:50px;
+	width: 600px;
+	height: 500px;
+	border-color: black;
+	border-radius: 10px;
+	border-collapse: collapse;
+	font-size: 30px;
+}
+
+.table2 input {
+	border-radius: 5px;
+	width: 300px;
+	font-size: 30px;
+	border: 0;
+	text-align: center;
+}

@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html style="background: #e9ebee">
+<head>
+	<title>Справки ВШЭ</title> 
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="userwindow.css">
+</head>
+<body onload="inputFiller()">
+	<header class="container">
+		<h1>Заказ справок НИУ ВШЭ</h1>
+		<table class="table1">
+			<tr><th>Личный кабинет</th></tr>
+			<tr><th><button onclick="goBack()">Выйти</button></th></tr>
+		</table>
+	</header>
+	<div class="container main">
+		<div class="main-2">
+			<table class="table2 container-1">
+				<tr><th style="background: #005aab; border-radius: 10px 10px 0 0; font-size: 40px;">
+					О себе:
+				</th></tr>
+				<tr><th>
+					Фамилия: <input disabled id="fName" placeholder="Familyname">
+				</th></tr>
+				<tr><th>
+					Имя: <input disabled id="mName" placeholder="Name">
+				</th></tr>
+				<tr><th>
+					Отчество: <input disabled id="lName" placeholder="Lastname">
+				</th></tr>
+				<tr><th>
+					Образовательная программа: <input disabled id="facultet" placeholder="BBI">
+				</th></tr>
+				<tr><th>
+					Группа: <input disabled id="group" placeholder="1801">
+				</th></tr>
+			</table>
+			<div class="spravki">
+				<div>
+				<select class="bottomSelect">
+					<option>Выберите вид справки</option>
+					<option>Справка об обучении на русском языке</option>
+				  	<option>Справка об обучении на английском языке</option>
+				  	<option>Транскрипт оценок (выписка всех оценок на английском языке)</option>
+				  	<option>Справка об успеваемости (выписка всех оценок на русском языке)</option>
+				  	<option>Справка об уровне владения английским языком</option>
+				  	<option>Другое:</option>
+				</select>
+				</div>
+				<div>
+				<input disabled placeholder="Если в списке нет нужной справки, выберите другое и опишите тут">
+				</div>
+				<div class="main-3">
+					<select class="chooseNum">
+						<option>Количество</option>
+						<option>1</option>
+						<option>2</option>
+						<option>3</option>
+						<option>4</option>
+						<option>5</option>
+					</select>
+					<button>Заказать</button>
+				</div>
+			</div>
+		</div>
+
+		<table class="table3 container-2">
+			<tr><th style="background: #005aab; border-radius: 10px 10px 0 0; font-size: 40px; height: 71px;">
+				История:
+			</th></tr>
+			<tr><th>
+				<select size="4" disabled>
+				  	<option>
+				  	<div class="optionContainer">
+				  		<div><div>2017-03-01 23:12:12</div> <div>Not ready</div></div>
+				  		<div>Справка об успеваемости (выписка всех оценок на русском языке)</div>
+				  		<div>Насибуллин Марат Фаридович, ББИ181</div>
+				  	</div>
+				  	</option>
+				  	<option>Пункт 2</option>
+				  	<option>Пункт 3</option>
+				</select>
+			</th></tr>
+		</table>
+	</div>
+	<script src="userwindow.js"></script>
+
+</body>
+</html>

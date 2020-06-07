@@ -1,0 +1,38 @@
+<!doctype html>
+<html style="background: #e9ebee">
+<head>
+	<title>Справки ВШЭ</title> 
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="main.css">
+</head>
+<body>
+	<header class="container">
+		<h1>Заказ справок НИУ ВШЭ</h1>
+		<table>
+			<tr><th>Электронный адрес</th><th>Пароль</th><th></th></tr>
+			<tr>
+				<th><input type="email" id="ent_email" placeholder="**********@edu.hse.ru"></th>
+				<th><input type="password" id="ent_password" placeholder="********"></th>
+				<th><button onclick="enterTry()">Вход</button></th>
+			</tr>
+			<tr><th id="loginMessage" style="color: red;"></th><th><a href="" style="color: #0080ff;">Забыли пароль?</a></th></tr>
+		</table>
+	</header>
+	<div class="container main">
+		<img src="imges/hseLogo.png" width="500px" style="margin: 50px">
+		<div class="form_style" name="fReg">
+			<h1 style="font-size: 40px">Регистрация</h1>
+			<p id="warning2"></p>
+			<input class="beauty_input" type="email" id="reg_email" placeholder="Email @edu.hse.ru">
+			<input class="beauty_input" type="password" id="reg_password1" placeholder="Password">
+			<input class="beauty_input" type="password" id="reg_password2" placeholder="Confirm password">
+			<button class="beauty_input" onclick="regTry()">Зарегистрироваться</button>
+		</div>
+    </div>
+
+
+    <script src="main.js"></script>
+</body> 
+</html>
+
+<!--<a href="" class="logo"><img src="https://www.meme-arsenal.com/memes/70baed8e603fe3131eb0aec0801027b8.jpg" width="100px"></a>-->
